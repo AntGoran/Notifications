@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        app:constraintSetEnd="@+id/end"
+        app:constraintSetStart="@+id/start"
+        app:duration="2000"
+        app:autoTransition="animateToEnd">
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+        <Constraint
+            android:id="@+id/fileName_textView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/fileNameTitle_textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="72dp"
+            app:layout_constraintBottom_toTopOf="@+id/status_textView"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintHorizontal_bias="0.157"
+            app:layout_constraintTop_toTopOf="@+id/fileNameTitle_textView"
+            android:scaleX=".5"
+            android:scaleY=".5"
+            android:alpha="0" />
+        <Constraint
+            android:id="@+id/status_textView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/statusTitle_textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/statusTitle_textView"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintHorizontal_bias="0.157"
+            android:scaleX=".5"
+            android:scaleY=".5"
+            android:alpha="0" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+
+    </ConstraintSet>
+</MotionScene>
