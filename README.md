@@ -7,6 +7,10 @@ In this project I have created an app to download a file from Internet by clicki
 
 A notification will be sent once the download is complete. When a user clicks on notification, the user lands on detail activity and the notification gets dismissed. In detail activity, the status of the download will be displayed and animated via MotionLayout upon opening the activity.
 
+![Download_Loading App](https://github.com/AntGoran/Notifications/assets/74721081/77b3a1ea-3d52-4fae-9fca-98828115d8e7)
+
+![Downloaded_Loading App](https://github.com/AntGoran/Notifications/assets/74721081/75406600-c813-43d2-8289-fd98a037d55d)
+
 [The final look of the app](https://gph.is/g/Zywmnre)
 
 
